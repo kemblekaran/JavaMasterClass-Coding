@@ -41,6 +41,7 @@ public class WhileDoWhile {
 
     /**
      * check whether the number is even or not
+     *
      * @param checkNumber
      */
     private void checkEvenNumber(int checkNumber) {
@@ -58,6 +59,7 @@ public class WhileDoWhile {
      * @param endNumber
      */
     private void getEvenNumbers(int startNumber, int endNumber) {
+        int noOfEvenNumbers = 0;
         while (startNumber <= endNumber) {
             if (!isEvenNumber(startNumber)) {
                 startNumber++;
@@ -65,12 +67,21 @@ public class WhileDoWhile {
             }
 
             System.out.println(startNumber + " is an Even number.");
+            noOfEvenNumbers++;
             startNumber++;
+
+            /*if there are more than 5 even number then exit the loop
+            *and print the count of even numbers
+             */
+            if (noOfEvenNumbers >= 5)
+                break;
         }
+        System.out.println("number of even numbers " + noOfEvenNumbers);
     }
 
     /**
      * ask user if he wants to perform another transaction
+     *
      * @param scan
      * @return
      */
@@ -85,6 +96,7 @@ public class WhileDoWhile {
 
     /**
      * perform operations
+     *
      * @param scan
      */
     private void performOperations(Scanner scan) {
