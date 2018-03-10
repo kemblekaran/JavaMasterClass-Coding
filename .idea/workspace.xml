@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ef7426-266e-4170-aee2-ef47938f3914" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/io/github/kemblekaran/switchstatements/SwitchStatements.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java" afterPath="$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/github/kemblekaran/forloops/ForLoops.java" afterPath="$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/forloops/ForLoops.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/github/kemblekaran/switchstatements/SwitchStatements.java" afterPath="$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/switchstatements/SwitchStatements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java" afterPath="$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/whiledowhile/WhileDoWhile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ForLoops.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/forloops/ForLoops.java">
+      <file leaf-file-name="ForLoops.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/forloops/ForLoops.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
               <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhileDoWhile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/io/github/kemblekaran/Main.java" />
         <option value="$PROJECT_DIR$/src/io/github/kemblekaran/forloops/ForLoops.java" />
         <option value="$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java" />
+        <option value="$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/whiledowhile/WhileDoWhile.java" />
       </list>
     </option>
   </component>
@@ -111,6 +105,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kemblekaran" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaMasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaMasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kemblekaran" type="462c0819:PsiDirectoryNode" />
+              <item name="control_flows_tatements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaMasterClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaMasterClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kemblekaran" type="462c0819:PsiDirectoryNode" />
+              <item name="control_flows_tatements" type="462c0819:PsiDirectoryNode" />
+              <item name="forloops" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,6 +133,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.kemblekaran.control_flows_tatements" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -136,10 +150,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WhileDoWhile">
+  <component name="RunManager" selected="Application.ForLoops">
     <configuration name="ForLoops" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.forloops.ForLoops" />
+      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.control_flows_tatements.forloops.ForLoops" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -169,7 +183,7 @@
     </configuration>
     <configuration name="Switch" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.switchstatements.SwitchStatements" />
+      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.control_flows_tatements.switchstatements.SwitchStatements" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -183,7 +197,7 @@
     </configuration>
     <configuration name="WhileDoWhile" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.whiledowhile.WhileDoWhile" />
+      <option name="MAIN_CLASS_NAME" value="io.github.kemblekaran.control_flows_tatements.whiledowhile.WhileDoWhile" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -232,15 +246,16 @@
       <option name="presentableId" value="Default" />
       <updated>1520611449142</updated>
       <workItem from="1520611458372" duration="3925000" />
-      <workItem from="1520697652138" duration="3845000" />
+      <workItem from="1520697652138" duration="4579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7770000" />
+    <option name="totallyTimeSpent" value="8504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -250,8 +265,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37962964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37962964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -290,7 +305,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/switchstatements/SwitchStatements.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/switchstatements/SwitchStatements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
@@ -298,7 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/forloops/ForLoops.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/forloops/ForLoops.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
@@ -306,7 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/switchstatements/SwitchStatements.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/switchstatements/SwitchStatements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
@@ -322,18 +337,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/forloops/ForLoops.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/whiledowhile/WhileDoWhile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="201">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/whiledowhile/WhileDoWhile.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/kemblekaran/control_flows_tatements/forloops/ForLoops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>

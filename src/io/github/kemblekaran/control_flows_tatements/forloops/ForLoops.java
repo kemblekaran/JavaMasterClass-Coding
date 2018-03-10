@@ -1,4 +1,4 @@
-package io.github.kemblekaran.forloops;
+package io.github.kemblekaran.control_flows_tatements.forloops;
 
 public class ForLoops {
     private final static int START_INTEREST_RATE = 2;

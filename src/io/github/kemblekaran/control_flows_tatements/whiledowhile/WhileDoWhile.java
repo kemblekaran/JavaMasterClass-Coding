@@ -1,4 +1,4 @@
-package io.github.kemblekaran.whiledowhile;
+package io.github.kemblekaran.control_flows_tatements.whiledowhile;
 
 import java.util.Scanner;
 

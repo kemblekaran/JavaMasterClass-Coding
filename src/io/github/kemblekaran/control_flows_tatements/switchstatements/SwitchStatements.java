@@ -1,5 +1,5 @@
 
-package io.github.kemblekaran.switchstatements;
+package io.github.kemblekaran.control_flows_tatements.switchstatements;
 
 public class SwitchStatements {
 
