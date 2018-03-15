@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.vehicle;
+package io.github.kemblekaran.oop.inheritence.classes.vehicle;
 
 public class Hundai extends Car {
     private int gears;

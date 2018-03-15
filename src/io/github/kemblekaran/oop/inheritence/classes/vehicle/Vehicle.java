@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.vehicle;
+package io.github.kemblekaran.oop.inheritence.classes.vehicle;
 
 public class Vehicle {
     private final static String TAG = Vehicle.class.getSimpleName();

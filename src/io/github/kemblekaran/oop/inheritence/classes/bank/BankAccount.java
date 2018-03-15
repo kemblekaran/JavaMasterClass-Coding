@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.bank;
+package io.github.kemblekaran.oop.inheritence.classes.bank;
 
 public class BankAccount {
     private long accountNumber;

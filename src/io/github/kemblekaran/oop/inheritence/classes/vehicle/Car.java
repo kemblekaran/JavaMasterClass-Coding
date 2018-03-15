@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.vehicle;
+package io.github.kemblekaran.oop.inheritence.classes.vehicle;
 
 public class Car extends Vehicle {
     private String name;

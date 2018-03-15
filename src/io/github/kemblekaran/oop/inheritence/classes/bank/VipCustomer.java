@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.bank;
+package io.github.kemblekaran.oop.inheritence.classes.bank;
 
 /**
  * Customer class for VIP Customer and the default implementation.

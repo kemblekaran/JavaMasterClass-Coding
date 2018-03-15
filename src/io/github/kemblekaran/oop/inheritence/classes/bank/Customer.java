@@ -1,4 +1,4 @@
-package io.github.kemblekaran.oop.classes.bank;
+package io.github.kemblekaran.oop.inheritence.classes.bank;
 
 /**
  * Customer object to perform transaction on the account
